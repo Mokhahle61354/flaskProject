@@ -101,7 +101,7 @@ class ComputeGeoObject:
         upper_corner = self.selected_city.upper_corner
         lower_corner = self.selected_city.lower_corner
         
-        condition1 = ref_lower_corner[0] < upper_corner[0] and ref_lower_corner[1] > upper_corner[1]
+        condition1 = (ref_lower_corner[0] < upper_corner[0]) and (ref_lower_corner[1] > upper_corner[1])
         condition2 = ref_upper_corner[0] > upper_corner[1] and ref_upper_corner[1] < lower_corner[1]
         final_result = bool(condition1 and condition2)
         return final_result

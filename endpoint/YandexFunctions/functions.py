@@ -105,13 +105,19 @@ class YandexEndPoint:
         geo_meta_data: dict = geo_obj_collection["metaDataProperty"]
         #first geo object will be used from featureMember
         geo_object: list = geo_obj_collection["featureMember"][0]["GeoObject"]
-                   
+        lower_corner = geo_object["boundedBy"]["Envelope"]["lowerCorner"]
+        upper_corner = geo_object["boundedBy"]["Envelope"]["upperCorner"]          
         geo_obj = GeoObject(
             data_property=geo_meta_data,
             name=geo_object["name"],
             description= geo_object["description"] if geo_object["description"] is not None else "",
-            point=(float(pos) for pos in geo_object["Point"]["pos"].split()),
-            lower_corner=(float(pos) for pos in geo_object["boundedBy"]["Envelope"]["lowerCorner"].split()),
-            upper_corner=(float(pos) for pos in geo_object["boundedBy"]["Envelope"]["upperCorner"].split())
+            point= tuple(float(pos) for pos in geo_object["Point"]["pos"].split()),
+            lower_corner= tuple(float(pos) for pos in lower_corner.split()),
+            upper_corner= tuple(float(pos) for pos in upper_corner.split())
         )
+        
         return geo_obj
+
+
+
+        
