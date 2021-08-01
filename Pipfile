@@ -9,6 +9,7 @@ geocoder = "*"
 haversine = "*"
 numpy = "*"
 autopep8 = "*"
+markdown = "*"
 
 [dev-packages]
 autopep8 = "*"

@@ -1,17 +1,23 @@
 # from .static.apikey import get_api_key
 # from werkzeug.wrappers import response
+from os import read
 from .YandexFunctions.functions import YandexEndPoint
 from .YandexFunctions.model import ComputeGeoObject, GeoObject
 from ..static.apikey import get_api_key
 # import moscow_data, yandex_endpoint
 from flask import Blueprint
-import urllib.request
-import json
+import markdown
 # from . import moscow_geo_object, yandex_endpoint
 
 compare_city = Blueprint("compare", __name__)
 moscow_endpoint = YandexEndPoint(apikey=get_api_key())
 moscow_endpoint.geocode = "Moscow Ring Road"
+
+@compare_city.route("/")
+def home_page():
+    readme_md = open("README.md", "r").read()
+    return markdown.markdown(readme_md)
+
 
 @compare_city.route("/enclused/<string:address>")
 def get_is_enclosed(address)-> bool:
