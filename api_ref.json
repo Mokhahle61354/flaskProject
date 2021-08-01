@@ -1,0 +1,273 @@
+{
+    "response": {
+      "GeoObjectCollection": {
+        "metaDataProperty": {
+          "GeocoderResponseMetaData": {
+            "request": "Moscow+Ring+Road",
+            "results": "10",
+            "found": "4"
+          }
+        },
+        "featureMember": [
+          {
+            "GeoObject": {
+              "metaDataProperty": {
+                "GeocoderMetaData": {
+                  "precision": "street",
+                  "text": "Russia, Moscow, Boulevard Ring",
+                  "kind": "street",
+                  "Address": {
+                    "country_code": "RU",
+                    "formatted": "Russia, Moscow, Boulevard Ring",
+                    "Components": [
+                      {
+                        "kind": "country",
+                        "name": "Russia"
+                      },
+                      {
+                        "kind": "province",
+                        "name": "Tsentralny federalny okrug"
+                      },
+                      {
+                        "kind": "province",
+                        "name": "Moscow"
+                      },
+                      {
+                        "kind": "locality",
+                        "name": "Moscow"
+                      },
+                      {
+                        "kind": "street",
+                        "name": "Boulevard Ring"
+                      }
+                    ]
+                  },
+                  "AddressDetails": {
+                    "Country": {
+                      "AddressLine": "Russia, Moscow, Boulevard Ring",
+                      "CountryNameCode": "RU",
+                      "CountryName": "Russia",
+                      "AdministrativeArea": {
+                        "AdministrativeAreaName": "Moscow",
+                        "Locality": {
+                          "LocalityName": "Moscow",
+                          "Thoroughfare": {
+                            "ThoroughfareName": "Boulevard Ring"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "name": "Boulevard Ring",
+              "description": "Moscow, Russia",
+              "boundedBy": {
+                "Envelope": {
+                  "lowerCorner": "37.597899 55.744374",
+                  "upperCorner": "37.648753 55.768339"
+                }
+              },
+              "Point": {
+                "pos": "37.623429 55.766557"
+              }
+            }
+          },
+          {
+            "GeoObject": {
+              "metaDataProperty": {
+                "GeocoderMetaData": {
+                  "precision": "street",
+                  "text": "Russia, Moscow, Garden Ring",
+                  "kind": "street",
+                  "Address": {
+                    "country_code": "RU",
+                    "formatted": "Russia, Moscow, Garden Ring",
+                    "Components": [
+                      {
+                        "kind": "country",
+                        "name": "Russia"
+                      },
+                      {
+                        "kind": "province",
+                        "name": "Tsentralny federalny okrug"
+                      },
+                      {
+                        "kind": "province",
+                        "name": "Moscow"
+                      },
+                      {
+                        "kind": "locality",
+                        "name": "Moscow"
+                      },
+                      {
+                        "kind": "street",
+                        "name": "Garden Ring"
+                      }
+                    ]
+                  },
+                  "AddressDetails": {
+                    "Country": {
+                      "AddressLine": "Russia, Moscow, Garden Ring",
+                      "CountryNameCode": "RU",
+                      "CountryName": "Russia",
+                      "AdministrativeArea": {
+                        "AdministrativeAreaName": "Moscow",
+                        "Locality": {
+                          "LocalityName": "Moscow",
+                          "Thoroughfare": {
+                            "ThoroughfareName": "Garden Ring"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "name": "Garden Ring",
+              "description": "Moscow, Russia",
+              "boundedBy": {
+                "Envelope": {
+                  "lowerCorner": "37.582305 55.729589",
+                  "upperCorner": "37.657853 55.773758"
+                }
+              },
+              "Point": {
+                "pos": "37.620312 55.729747"
+              }
+            }
+          },
+          {
+            "GeoObject": {
+              "metaDataProperty": {
+                "GeocoderMetaData": {
+                  "precision": "street",
+                  "text": "Russia, Moscow, Third Ring Road",
+                  "kind": "street",
+                  "Address": {
+                    "country_code": "RU",
+                    "formatted": "Russia, Moscow, Third Ring Road",
+                    "Components": [
+                      {
+                        "kind": "country",
+                        "name": "Russia"
+                      },
+                      {
+                        "kind": "province",
+                        "name": "Tsentralny federalny okrug"
+                      },
+                      {
+                        "kind": "province",
+                        "name": "Moscow"
+                      },
+                      {
+                        "kind": "locality",
+                        "name": "Moscow"
+                      },
+                      {
+                        "kind": "street",
+                        "name": "Third Ring Road"
+                      }
+                    ]
+                  },
+                  "AddressDetails": {
+                    "Country": {
+                      "AddressLine": "Russia, Moscow, Third Ring Road",
+                      "CountryNameCode": "RU",
+                      "CountryName": "Russia",
+                      "AdministrativeArea": {
+                        "AdministrativeAreaName": "Moscow",
+                        "Locality": {
+                          "LocalityName": "Moscow",
+                          "Thoroughfare": {
+                            "ThoroughfareName": "Third Ring Road"
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "name": "Third Ring Road",
+              "description": "Moscow, Russia",
+              "boundedBy": {
+                "Envelope": {
+                  "lowerCorner": "37.531325 55.700943",
+                  "upperCorner": "37.712677 55.793875"
+                }
+              },
+              "Point": {
+                "pos": "37.622289 55.705944"
+              }
+            }
+          },
+          {
+            "GeoObject": {
+              "metaDataProperty": {
+                "GeocoderMetaData": {
+                  "precision": "other",
+                  "text": "Russia, Moscow Region, Leninskiy gorodskoy okrug, Roadside service zone of the Moscow Ring Road - Domodedovo Airport Territory",
+                  "kind": "district",
+                  "Address": {
+                    "country_code": "RU",
+                    "formatted": "Russia, Moscow Region, Leninskiy gorodskoy okrug, Roadside service zone of the Moscow Ring Road - Domodedovo Airport Territory",
+                    "Components": [
+                      {
+                        "kind": "country",
+                        "name": "Russia"
+                      },
+                      {
+                        "kind": "province",
+                        "name": "Tsentralny federalny okrug"
+                      },
+                      {
+                        "kind": "province",
+                        "name": "Moscow Region"
+                      },
+                      {
+                        "kind": "area",
+                        "name": "Leninskiy gorodskoy okrug"
+                      },
+                      {
+                        "kind": "district",
+                        "name": "Roadside service zone of the Moscow Ring Road - Domodedovo Airport Territory"
+                      }
+                    ]
+                  },
+                  "AddressDetails": {
+                    "Country": {
+                      "AddressLine": "Russia, Moscow Region, Leninskiy gorodskoy okrug, Roadside service zone of the Moscow Ring Road - Domodedovo Airport Territory",
+                      "CountryNameCode": "RU",
+                      "CountryName": "Russia",
+                      "AdministrativeArea": {
+                        "AdministrativeAreaName": "Moscow Region",
+                        "SubAdministrativeArea": {
+                          "SubAdministrativeAreaName": "Leninskiy gorodskoy okrug",
+                          "Locality": {
+                            "DependentLocality": {
+                              "DependentLocalityName": "Roadside service zone of the Moscow Ring Road - Domodedovo Airport Territory"
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "name": "Roadside service zone of the Moscow Ring Road - Domodedovo Airport Territory",
+              "description": "Leninskiy gorodskoy okrug, Moscow Region, Russia",
+              "boundedBy": {
+                "Envelope": {
+                  "lowerCorner": "37.809551 55.527693",
+                  "upperCorner": "37.815157 55.534011"
+                }
+              },
+              "Point": {
+                "pos": "37.812659 55.53051"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
