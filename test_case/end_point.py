@@ -31,7 +31,10 @@ class TestPages(unittest.TestCase):
         pass
 
     def test_enclosed_logic(self):
-        
+        """
+        "Moscow Ring Road" mus be inside enclosure
+        """
+
         self.assertEqual(
             first=address,
             second="Moscow Ring Road",
@@ -39,6 +42,20 @@ class TestPages(unittest.TestCase):
         )
         self.assertEqual(response_dict["enclosed"], True)
         pass
+
+    # def test_outside_enclosure(self):
+    #     """
+    #     "CBD cape town" must not be enclosed by boundries of reference place -> "Moscow Ring Road"
+    #     """
+
+    #     self.assertEqual(
+    #         first=address,
+    #         second="CBD cape town",
+    #         msg="Reference address if Moscow Ring Road expect distance to be zero"
+    #     )
+    #     self.assertEqual(response_dict["enclosed"], False)
+
+
 
 
 

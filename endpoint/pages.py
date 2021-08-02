@@ -72,11 +72,16 @@ def distance_from_moscow(address="CBD Cape Town")->float:
         reference_city = moscow_endpoint.get_geo_object(),
         selected_city = address_geo_object
     )
-    distance_km = distance_obj.get_point_distance()
+    
     envelope_distance = distance_obj.get_envelope_distances()
-    distance_km.update(envelope_distance)
-
-    return distance_km
+    
+    if distance_obj.is_inside_evelope():
+        # TODO: Log
+        pass
+    else:
+        distance_km = distance_obj.get_point_distance()
+        distance_km.update(envelope_distance)
+        return distance_km
 
 @compare_city.route("/<string:params>/<string:address>")
 def get_multiple_params(params:str, address:str) -> dict:

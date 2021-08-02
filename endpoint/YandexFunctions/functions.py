@@ -48,7 +48,7 @@ class YandexEndPoint:
         pass
 
     # @staticmethod
-    def _get_body(self):
+    def _get_body(self)-> str:
         """
         this function cleans unused body parameters:
         Example: 
