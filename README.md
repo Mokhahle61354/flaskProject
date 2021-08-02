@@ -21,12 +21,13 @@
   
   - url has form of:
   
-    ``http://localhost:port/{commands}/{address}```
+    ``http://localhost:port/{strng: commands}/{strng: address}```
 
     eg: http://127.0.0.1:5000/distance%20enclosed/CBD%20CAPE%20town
 
       - city/address: CBD CAPE town
       - Parameters/commands: distance and enclosed
+      - commands are separated by space/(white space)
 
   - Results:
       ```
