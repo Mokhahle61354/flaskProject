@@ -10,6 +10,7 @@ haversine = "*"
 numpy = "*"
 autopep8 = "*"
 markdown = "*"
+sphinx = "*"
 
 [dev-packages]
 autopep8 = "*"

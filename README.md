@@ -47,3 +47,10 @@
   - +description 
   - distance
   - enclosed
+
+
+- Generate Sphinx docs
+
+```
+sphinx-build -b html source ./docs
+```
