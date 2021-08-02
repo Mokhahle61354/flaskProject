@@ -3,7 +3,7 @@
 from os import read
 from .YandexFunctions.functions import YandexEndPoint
 from .YandexFunctions.model import ComputeGeoObject, GeoObject
-from ..static.apikey import get_api_key
+from static.apikey import get_api_key
 # import moscow_data, yandex_endpoint
 from flask import Blueprint
 import markdown
